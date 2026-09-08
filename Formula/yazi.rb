@@ -16,7 +16,9 @@ class Yazi < Formula
 
   def install
     if build.head?
-      system "cargo", "install", *std_cargo_args
+      system "cargo", "install", *std_cargo_args(path: "yazi-fm")
+      system "cargo", "install", *std_cargo_args(path: "yazi-cli")
+      bin.install "scripts/ya-summarize", "scripts/ya-rename"
     else
       bin.install "yazi"
       bin.install "ya"
