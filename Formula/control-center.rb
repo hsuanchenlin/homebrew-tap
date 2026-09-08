@@ -1,15 +1,15 @@
 class ControlCenter < Formula
   desc "Local keyboard-first TUI launcher and configurator for CLI tools"
   homepage "https://github.com/hsuanchenlin/control-center"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hsuanchenlin/control-center/releases/download/v0.1.0/control-center_0.1.0_darwin_arm64.tar.gz"
-      sha256 "f4223e3bb4e9c066ef7a0a351501c6e2dcbbe308388c02178507c6cd141d3e17"
+      url "https://github.com/hsuanchenlin/control-center/releases/download/v0.2.0/control-center_0.2.0_darwin_arm64.tar.gz"
+      sha256 "336ee28879ad2fdf63f8a7efef186399319992e0bb124be8044042783d573a48"
     else
-      url "https://github.com/hsuanchenlin/control-center/releases/download/v0.1.0/control-center_0.1.0_darwin_amd64.tar.gz"
-      sha256 "d4576a5d5e043d5bb698ec2b5a3d554fd131aa557cdc6e778bd50dfc25270f32"
+      url "https://github.com/hsuanchenlin/control-center/releases/download/v0.2.0/control-center_0.2.0_darwin_amd64.tar.gz"
+      sha256 "c3ad3bf693419ac912f231a50b9c845d166d97c389c7a2e9961ef93ba37f1186"
     end
   end
 
