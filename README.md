@@ -2,24 +2,25 @@
 
 Personal Homebrew tap for @hsuanchenlin tools.
 
-## Install
+## Available Formulae
+
+| Formula | Description | Install |
+| --- | --- | --- |
+| **`control-center`** | Keyboard-first TUI launcher and configurator for CLI tools | `brew install hsuanchenlin/tap/control-center` |
+| **`echoforge`** | Local control and inspection tool for EchoForge macOS app | `brew install hsuanchenlin/tap/echoforge` |
+| **`yazi`** | Terminal file manager with built-in AI summaries and renames | `brew install hsuanchenlin/tap/yazi` |
+
+## Usage
 
 ```sh
+# Tap once:
 brew tap hsuanchenlin/tap
+
+# Install any tool:
 brew install control-center
+brew install echoforge
 brew install yazi
+
+# Upgrade anytime:
+brew upgrade
 ```
-
-Or install in one step:
-
-```sh
-brew install hsuanchenlin/tap/control-center
-brew install hsuanchenlin/tap/yazi
-```
-
-## yazi
-
-`yazi` is a custom fork of [Yazi](https://github.com/hsuanchenlin/yazi) with
-built-in AI summaries (`A` key) and AI renames (`R` key).
-
-Installing it puts `yazi`, `ya`, `ya-summarize`, and `ya-rename` on your PATH.
