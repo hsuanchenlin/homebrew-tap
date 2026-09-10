@@ -1,12 +1,12 @@
 class Echoforge < Formula
   desc "Local control and inspection tool for EchoForge macOS app"
   homepage "https://github.com/hsuanchenlin/EchoForge"
-  version "0.9.5"
+  version "0.9.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hsuanchenlin/EchoForge/releases/download/0.9.5/echoforge-0.9.5-darwin-arm64.tar.gz"
-      sha256 "6b89d37e82da36a30c21065593f8dacb866b4e7ebbd33c50d4bee07400667eb7"
+      url "https://github.com/hsuanchenlin/EchoForge/releases/download/0.9.6/echoforge-0.9.6-darwin-arm64.tar.gz"
+      sha256 "2c01661b5e5c9766800d76e20809fcc3fcfc00b9e78ff47d58da39958de9bdde"
     end
   end
 
