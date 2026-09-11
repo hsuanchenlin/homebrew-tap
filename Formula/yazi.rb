@@ -1,14 +1,14 @@
 class Yazi < Formula
   desc "Blazing fast terminal file manager with built-in AI summaries and renames"
   homepage "https://github.com/hsuanchenlin/yazi"
-  version "26.9.1-ai"
+  version "26.9.2-ai"
 
   head "https://github.com/hsuanchenlin/yazi.git", branch: "main"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hsuanchenlin/yazi/releases/download/v26.9.1-ai/yazi-26.9.1-ai-darwin-arm64.tar.gz"
-      sha256 "c2b103cb6bd68919230b087c51364ee7771dd04b8727e0e9fdd22b7608f28435"
+      url "https://github.com/hsuanchenlin/yazi/releases/download/v26.9.2-ai/yazi-26.9.2-ai-darwin-arm64.tar.gz"
+      sha256 "69e5f87540479e89769afc452342978daf7246ebdce6471b58ac44c16c7cdb3a"
     end
   end
 
